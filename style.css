@@ -15,3 +15,21 @@
 #start, #status{
     font-size: 22px;
 }
+#footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+#fotter h4{
+    margin: 0px;
+    line-height: 2;
+}
+.modal-dialog{
+    width: 90%;
+}
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
