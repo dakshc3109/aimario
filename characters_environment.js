@@ -52,13 +52,23 @@ var gameConfig={
 /*====================================
 =            Game Status             =
 ====================================*/
+noseX ="";
+noseY = "";
+gameStatus = "";
+
+function startGame(){
+  gameStatus = "start";
+  document.getElementById("status").innerHTML = "Game is loading";
+}
 
 function game(){
-
   instializeInDraw();
   moveEnvironment(mario);
   drawSprites();
-  
+
+  console.log("noseX "+noseX+" noseY "+noseY);
+  console.log(gameStatus);
+
   if(gameConfig.status==='start'){
 
     fill(0,0,0,150);
