@@ -93,7 +93,7 @@ function game(){
     checkStatus(mario);
     scores(mario);
     manualControl(mario);
-  
+    document.getElementById("status").innerHTML = "Game is loaded";
     // optional control version of game
     // autoControl(mario);
   
@@ -118,7 +118,8 @@ function game(){
     strokeWeight(7);
     noFill();
     ellipse(gameConfig.screenX/2,gameConfig.screenY/2-30,160,160)
-    changeGameStatud(mario)
+    changeGameStatud(mario);
+    document.getElementById("status").innerHTML = "Game is over";
   }
 }  
 
