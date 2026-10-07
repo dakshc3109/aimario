@@ -10,3 +10,5 @@ An interactive, web-based Mario game clone built using vanilla JavaScript, HTML5
 ## 🛠️ Tech Stack
 - **Frontend:** HTML5, CSS3, JavaScript (ES6)
 - **Audio/Physics Mechanics:** Web Audio API and custom delta-time physics script configuration
+
+**USE CHROME; SAFARI IS NOT PREFERRED**
