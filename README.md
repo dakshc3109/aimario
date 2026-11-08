@@ -1,4 +1,4 @@
-# AI-Mario: Smart Interactive Web Game
+# AI-Mario: Smart Interactive Web Game(CHROME COMPATIBLE)
 
 An interactive, web-based Mario game clone built using vanilla JavaScript, HTML5 Canvas, and AI-driven inputs/physics tracking. 
 
